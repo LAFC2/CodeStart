@@ -1,0 +1,100 @@
+
+    body {
+      background-color: rgb(122, 91, 163);
+      font-family: 'Lucida Sans', Verdana, sans-serif;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #420d4b !important;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    }
+
+    .navbar-brand {
+      font-size: 2rem;
+      color: #ffffff !important;
+      font-weight: bold;
+    }
+
+    .nav-link {
+      color: #fff !important;
+      margin-right: 10px;
+      font-size: 1.2rem;
+      transition: 0.3s;
+    }
+
+    .nav-link:hover {
+      color: #f0f0f0 !important;
+    }
+
+    .logo {
+      height: 60px;
+      width: auto;
+    }
+
+    /* Hero */
+    .hero {
+      background-color: #210635;
+      color: #fff;
+      text-align: center;
+      padding: 60px 20px;
+      border-radius: 0 0 30px 30px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+    }
+
+    /* Cards de atividades */
+    .activities .card {
+      background-color: #420d4b;
+      color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+      transition: transform 0.3s;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .activities .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .activities i {
+      font-size: 3rem;
+      margin-bottom: 15px;
+      color: #ff5e99;
+    }
+
+    .activities button {
+      background-color: #ff5e99;
+      border: none;
+      border-radius: 10px;
+      padding: 10px 20px;
+      color: #fff;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .activities button:hover {
+      background-color: #ff3a75;
+    }
+
+    /* Rodapé */
+    footer {
+      background-color: #420d4b;
+      color: #fff;
+      text-align: center;
+      padding: 30px 0;
+      margin-top: 50px;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #ff5e99;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
