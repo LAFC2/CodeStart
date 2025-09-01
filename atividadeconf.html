@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Confirmação de Envio | CodeStart</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/imagens/Logo.png">
+  <link rel="stylesheet" href="assets/css/styleconf.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="assets/imagens/Logo.png" alt="logo" class="logo me-2" style="height:40px;">
+        CodeStart
+      </a>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-md-10">
+
+        <div class="confirm-card">
+
+          <div class="confirm-icon">
+            <i class="bi bi-check-circle-fill"></i>
+          </div>
+
+          <h2 class="fw-bold">Envio realizado com sucesso!</h2>
+          <p class="confirm-subtitle">Sua atividade foi enviada e será corrigida pelas professoras.</p>
+
+          <div id="meta" class="mb-3">
+            <div class="meta-line"><strong>Nome:</strong> <span id="nomeAluno">—</span></div>
+            <div class="meta-line"><strong>Atividade:</strong> <span id="tituloAtividade">—</span></div>
+            <div class="meta-line"><strong>Enviado em:</strong> <span id="dataEnvio">—</span></div>
+          </div>
+
+          <div class="mb-3">
+            <button id="btnDownload" class="btn btn-download me-2">
+              <i class="bi bi-download me-1"></i> Baixar comprovante
+            </button>
+            <button id="btnToggleRespostas" class="btn btn-outline-light">
+              <i class="bi bi-eye me-1"></i> Ver minhas respostas
+            </button>
+          </div>
+
+          <div id="respostasBox" style="display:none; margin-top:18px;">
+            <h6 class="text-start mb-2">Minhas respostas</h6>
+            <pre id="respostasPre" class="answers">Nenhuma resposta encontrada.</pre>
+          </div>
+
+          <div class="mt-4">
+            <a href="atividades.html" class="btn btn-light me-2">Voltar para Atividades</a>
+            <a href="index.html" class="btn btn-outline-light">Voltar para a Home</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+ <footer>
+  <p>© 2025 CodeStart - Desenvolvido por LAFC² UNAMA Parque Shopping</p>
+  <p>Contato: <a href="mailto:ligalafc2@gmail.com">ligalafc2@gmail.com</a></p>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="assets/js/ativiconfir.js"></script>
+
+</body>
+</html>
